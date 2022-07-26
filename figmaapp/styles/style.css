@@ -1,0 +1,82 @@
+:root {
+  --fonte--principal:"Poppins", sans-serif;
+}
+
+.titulo_principal {
+  text-align: center;
+  font-weight: 600px;
+  font-size: 1.5rem;
+  line-height: 30.94px;
+  margin-bottom: 26px;
+}
+
+.texto_principal {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 23.2px;
+  margin-bottom: 64px;
+  margin: 0 3rem;
+}
+
+.container {
+  background-color: #EBEBEB;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  font-family: var(--fonte--principal);
+  font-weight: 400;
+}
+
+.botao_continue {
+  display: flex;
+  justify-content: center;
+  background-color: #92E3A9;
+  box-shadow: 0px 4px 10px;
+  margin-top: 1.12rem;
+  margin: 0 3rem;
+}
+
+.botao--continue {
+  border: none;
+  padding: 1.12rem;
+  background-color: #92E3A9;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.imagem_page {
+  width: 18.75rem;
+  height: 18.75rem;
+}
+
+.botoes_input {
+  margin: 6rem;
+  cursor: pointer;
+}
+
+.botao_skip {
+  margin: 2rem;
+  color: #92E3A9;
+  text-decoration: none;
+}
+
+.botao-skip {
+  text-decoration: none;
+  color: #92E3A9;
+  font-size: 1.125rem;
+}
+
+#radio1:checked {
+  background-color: #92E3A9;
+  border: 1px solid #92E3A9;
+}
+
+#radio2:checked {
+  background-color: #92E3A9;
+  border: 1px solid #92E3A9;
+}
+
+#radio3:checked ~ .first {
+  margin: -75%;
+}/*# sourceMappingURL=style.css.map */
